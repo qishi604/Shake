@@ -1,0 +1,4 @@
+rootProject.name='Widget'
+include ':app'
+include ':shake-debug'
+include ':debug'
