@@ -54,6 +54,7 @@ public final class Debugs {
         new ShakeDebugItem("Show Main", () -> toast("main")),
         new ShakeDebugItem("Test", () -> toast("Test")),
         new ShakeDebugItem("Show Settings", () -> showActivity("com.lanayru.shake.SettingsActivity")),
+        new ShakeDebugItem("Show Share", () -> showActivity("com.lanayru.shake.ShareActivity")),
     };
     ShakeDebug.attach(activity, items);
   }

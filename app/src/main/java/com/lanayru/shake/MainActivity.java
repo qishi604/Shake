@@ -1,8 +1,10 @@
 package com.lanayru.shake;
 
+import android.view.View;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import com.lanayru.FragmentContainerActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,5 +30,9 @@ public class MainActivity extends AppCompatActivity {
 
   private void toast(CharSequence s) {
     Toast.makeText(this, s, Toast.LENGTH_SHORT).show();
+  }
+
+  public void showSettings(View view) {
+    FragmentContainerActivity.show(this, SettingsFragment.class, null);
   }
 }

@@ -1,4 +1,4 @@
-package com.lanayru.shake;
+package com.laynaru.lib.net;
 
 import org.junit.Test;
 
@@ -12,11 +12,5 @@ import static org.junit.Assert.*;
 public class ExampleUnitTest {
   @Test public void addition_isCorrect() {
     assertEquals(4, 2 + 2);
-  }
-
-  @Test
-  public void md5str() {
-    String s = "12:8F:FD:82:F9:2C:1D:74:DD:08:C0:25:91:F4:F5:EA";
-    System.out.println(s.replaceAll(":", "").toLowerCase());
   }
 }
